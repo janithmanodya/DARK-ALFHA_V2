@@ -1,8 +1,8 @@
 {
-   "name": "DAEK AHFHA",
+   "name": "JW_BOT",
    "version": "0.0.1",
-   "description": "dark alfha based on JavaScript",
-   "author": "Deep-Eagle",
+   "description": "JW_BOT based on JavaScript",
+   "author": "Janith Manodya",
    "main": "src/darkalfha.js",
    "keywords": [
       "Whatsapp",
