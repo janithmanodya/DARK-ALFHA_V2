@@ -1481,7 +1481,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: 'JANITH MANODYA'}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1490,8 +1490,8 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
+│ Hi 👋❤️
+└┬❖  JW-Bot By Janith
 ┌┤✑  ${xeonytimewisher} 😄
 │└────────────┈ ⳹
 │
@@ -1501,7 +1501,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 │𝗕𝗼𝘁 : ${global.botname}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
 │𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+│𝗠𝗼𝗱𝗲 : JW-BOT 2.0 By Janith
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │
@@ -1517,24 +1517,24 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    │✑  Please Type The *MENU*
    │✑  Given *BELOW*
 ┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.textpromenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
+│📜.allmenu
+│📜.downloadmenu
+│📜.funmenu
+│📜.aimenu
+│📜.groupmenu
+│📜.ownermenu
+│📜.photooxymenu
+│📜.textpromenu
+│📜.ephoto360menu
+│📜.animemenu
+│📜.nsfwmenu
+│📜.randomphotomenu
+│📜.randomvideomenu
+│📜.stickermenu
+│📜.databasemenu
+│📜.stalkermenu
+│📜.bugmenu
+│📜.othermenu
 └─────────────────┈ ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
@@ -2116,7 +2116,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`
+teks = `%& THANK YOU JW BOT BY JANITH MANODYA CONNECT ME:0770889232 `
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
